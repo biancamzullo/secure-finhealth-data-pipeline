@@ -216,3 +216,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ==========================================
+# Custom Project Data & Security Rules
+# ==========================================
+# Ignore the raw Kaggle dataset folder
+SINIOR_MARKET_SAMPLE_v1/
+
+# Ignore local processed Parquet and CSV files
+*.parquet
+*.csv
+
+# Ignore any local security environment credentials
+.env
